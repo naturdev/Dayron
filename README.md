@@ -200,3 +200,5 @@ You can also check all of our open-source projects at [inaka.github.io](https://
 Copyright (c) 2016, Inaka.
 
 Dayron source code is licensed under the [Apache 2 License](LICENSE).
+
+<!-- thanks for reading -->
