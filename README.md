@@ -8,6 +8,25 @@
 
 Dayron is a flexible library to interact with RESTful APIs and map resources to Elixir data structures. It works _similar_ of [Ecto.Repo](https://github.com/elixir-lang/ecto) but, instead of retrieving data from a database, it has underlying http clients to retrieve data from external HTTP servers.
 
+## Requirements
+
+**Elixir Version:**
+- Elixir ~> 1.2
+
+**Core Dependencies:**
+- **HTTPoison** (~> 0.8.0) - HTTP client for making RESTful API requests
+- **Poison** (~> 1.5 or ~> 2.0) - JSON encoding and decoding
+- **Crutches** (~> 1.0.0) - Elixir utility library
+
+**Optional Integration:**
+- **Ecto** - Dayron models can be used alongside Ecto schemas to share data structures between database and API resources
+
+**Development & Testing:**
+- **Credo** (~> 0.3) - Static code analysis
+- **Bypass** (~> 0.1) - HTTP request mocking for tests
+- **ExCoveralls** (~> 0.5) - Test coverage reporting
+- **Ex_doc** (~> 0.11) - Documentation generation
+
 ## Installation
 
 1. Add Dayron to your list of dependencies in `mix.exs`:
